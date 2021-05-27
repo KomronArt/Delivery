@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1300px;
+    display: block;
+    margin: 0 auto;
+}
+header{
+    height: 120px;
+}
+.logo{
+    padding-top: 10px;
+}
+.menu{
+    float: right;
+    margin-top: 43px;
+}
+.menu_text_header{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;     
+    padding-right: 5px;
+    font-family: 'Exo 2', sans-serif;
+}
+.menu_header{
+    display: inline-block;
+}
+.section_info{
+    margin-top: 0px;
+    height: 570px;
+}
+.about_app{
+    margin-top: 100px;
+    width: 700px;
+    float: left;
+}
+.about_app p{
+    font-size: 26px;
+    font-family: 'Exo 2', sans-serif;
+    padding-bottom: 30px;
+    position: relative;
+}
+.phones_img{
+    float: right;
+    width: 25%;
+    padding-right: 50px;
+    margin-top: 30px;
+}
+.Fioza_img_text{
+    padding-bottom: 25px;
+}
+.links{
+    height: 130px;
+    background-color: #3b3b3b;
+    position: absolute;
+    width: 1300px;
+}
+.links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 66px;
+    font-family: 'Exo 2', sans-serif;
+    margin-left: 50px;
+}
+.delivery_servises p:nth-child(1){
+    margin-top: 130px;
+    font-size: 60px;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    color: #3b3b3b;
+}
+.servises_text{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 30px;
+    color: #727272;
+}
+.left_servises{
+    float: left;
+    margin-top: 130px;
+}
+.speed{
+    width: 340px;
+}
+.speed img{
+    display: block;
+    margin: 0 auto;
+}
+.speed p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+    color: #727272;
+}
+.faster{
+    width: 340px;
+    margin-top: 60px;
+}
+.faster img{
+    display: block;
+    margin: 0 auto;
+}
+.faster p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+    color: #727272;
+}
+.dark_app{
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.right_servises{
+    float: right;
+    margin-top: 130px;
+}
+.grand_easy{
+    width: 340px;
+    margin-top: 60px;
+}
+.grand_easy img{
+    display: block;
+    margin: 0 auto;
+}
+.grand_easy p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+    color: #727272;
+}
+.dark_theme{
+    width: 340px;
+    margin-top: 60px;
+}
+.dark_theme img{
+    display: block;
+    margin: 0 auto;
+}
+.dark_theme p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+    color: #727272;
+}
