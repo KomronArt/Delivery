@@ -109,6 +109,9 @@ header{
     font-size: 30px;
     font-weight: 500;
 }
+.delivery_servises{
+    height: 1400px;
+}
 .delivery_servises p:nth-child(1){
     margin-top: 130px;
     font-size: 60px;
@@ -129,7 +132,7 @@ header{
     margin-top: 130px;
 }
 .speed{
-    width: 340px;
+    max-width: 340px;
 }
 .speed img{
     display: block;
@@ -143,7 +146,7 @@ header{
     color: #727272;
 }
 .faster{
-    width: 340px;
+    max-width: 340px;
     margin-top: 60px;
 }
 .faster img{
@@ -167,7 +170,7 @@ header{
     margin-top: 130px;
 }
 .grand_easy{
-    width: 340px;
+    max-width: 340px;
     margin-top: 60px;
 }
 .grand_easy img{
@@ -182,7 +185,7 @@ header{
     color: #727272;
 }
 .dark_theme{
-    width: 340px;
+    max-width: 340px;
     margin-top: 60px;
 }
 .dark_theme img{
@@ -195,4 +198,61 @@ header{
     font-size: 20px;
     font-family: 'Exo 2', sans-serif;
     color: #727272;
+}
+.stat{
+    height: 200px;
+    background-color: #53d769;
+}
+.stat p{
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+    color: #fff;
+    margin-left: 8%;
+    margin-top: 60px;
+
+}
+.fioza_delivery{
+    max-width: 1300px;
+}
+.float{
+    float: left;
+}
+.fioza_text_first, .fioza_text_second{
+    max-width: 650px;
+}
+.fioza_text_first{
+    font-size: 60px;
+    color: #3b3b3b;
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 200px;
+
+}
+.fioza_text_second{
+    font-size: 36px;
+    color: #727272;
+    font-family: 'Exo 2', sans-serif;
+}
+.download{
+    width: 300px;
+    height: 100px;
+    background-color: #53d769;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.download p{
+    font-size: 48px;
+    color: #fff;
+    float: left;
+    margin: 20px 20px 0 25px;
+}
+.download img{
+    margin-top: 30px;
+    float: left;
+}
+.light_app{
+    float: right;
+    margin-top: 130px;
+    margin-right: 50px;
 }
