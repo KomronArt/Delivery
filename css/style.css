@@ -51,19 +51,6 @@ header{
 .Fioza_img_text{
     padding-bottom: 25px;
 }
-.links{
-    height: 130px;
-    background-color: #3b3b3b;
-    position: absolute;
-    width: 1300px;
-}
-.links a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 66px;
-    font-family: 'Exo 2', sans-serif;
-    margin-left: 50px;
-}
 .delivery_servises p:nth-child(1){
     margin-top: 130px;
     font-size: 60px;
