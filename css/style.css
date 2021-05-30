@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Exo 2', sans-serif;
+}
 a{
     text-decoration: none;
 }
@@ -25,7 +28,6 @@ header{
     font-size: 20px;
     vertical-align: top;     
     padding-right: 5px;
-    font-family: 'Exo 2', sans-serif;
     text-transform: uppercase;
     margin-top: 5px;
 }
@@ -50,7 +52,6 @@ header{
 }
 .about_app p{
     font-size: 26px;
-    font-family: 'Exo 2', sans-serif;
     padding-bottom: 30px;
     position: relative;
 }
@@ -115,7 +116,6 @@ header{
 .delivery_servises p:nth-child(1){
     margin-top: 130px;
     font-size: 60px;
-    font-family: 'Exo 2', sans-serif;
     text-align: center;
     padding-top: 100px;
     color: #3b3b3b;
@@ -123,7 +123,6 @@ header{
 .servises_text{
     font-size: 30px;
     text-align: center;
-    font-family: 'Exo 2', sans-serif;
     margin-top: 30px;
     color: #727272;
 }
@@ -142,7 +141,6 @@ header{
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
-    font-family: 'Exo 2', sans-serif;
     color: #727272;
 }
 .faster{
@@ -157,7 +155,6 @@ header{
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
-    font-family: 'Exo 2', sans-serif;
     color: #727272;
     margin-left: 10px;
 }
@@ -183,7 +180,6 @@ header{
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
-    font-family: 'Exo 2', sans-serif;
     color: #727272;
 }
 .dark_theme{
@@ -198,7 +194,6 @@ header{
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
-    font-family: 'Exo 2', sans-serif;
     color: #727272;
 }
 .stat{
@@ -209,7 +204,6 @@ header{
     display: inline-block;
     text-align: center;
     font-size: 30px;
-    font-family: 'Exo 2', sans-serif;
     color: #fff;
     margin-left: 8%;
     margin-top: 60px;
@@ -228,14 +222,12 @@ header{
 .fioza_text_first{
     font-size: 60px;
     color: #3b3b3b;
-    font-family: 'Exo 2', sans-serif;
     margin-top: 200px;
 
 }
 .fioza_text_second{
     font-size: 36px;
     color: #727272;
-    font-family: 'Exo 2', sans-serif;
 }
 .download{
     width: 300px;
@@ -261,7 +253,7 @@ header{
 }
 .fastdownload{
     background-color: #86e396;
-    height: 600px;
+    height: 601px;
     margin-top: 300px;
     border: 2px solid #46b558;
 }
@@ -272,13 +264,11 @@ header{
 .downloadoursapp{
     font-size: 48px;
     color: #3b3b3b;
-    font-family: 'Exo 2', sans-serif;
     padding-top: 180px;
 }
 .easyfast{
     color: #5a5a5a;
     font-size: 36px;
-    font-family: 'Exo 2', sans-serif;
 }
 .laststoremarket{
     width: 210px;
@@ -295,4 +285,72 @@ header{
     color: #fff;
     text-align: center;
     margin-top: 20px;
+}
+footer{
+    height: 785px;
+    background-color: #363a43;
+}
+.darkfioza{
+    margin: 40px 0 0 130px;
+}
+.footertext{
+    margin: 40px 130px;
+    color: #adacac;
+    font-size: 24px;
+}
+.social{
+    margin: 70px 0 70px 130px;
+}
+.social img{
+    margin-right: 20px;
+}
+.hrdiv{
+    height: 280px;
+}
+.company{
+    color: #fff;
+    float: left;
+}
+.company p{
+    font-size: 30px;
+    margin-left: 130px;
+}
+.company ul li{
+    line-height: 2.2;
+    font-size: 24px;
+    margin-left: 150px;
+    list-style: none;
+    color: #959597;
+}
+.security{
+    color: #fff;
+    float: left;
+}
+.security p{
+    font-size: 30px;
+    margin-left: 130px;
+    margin-left: 200px;
+}
+.security ul li{
+    line-height: 2.2;
+    font-size: 24px;
+    margin-left: 200px;
+    list-style: none;
+    color: #959597;
+}
+.hr{
+    height: 5px;
+    background-color: #53d769;
+}
+.copyrate img{
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.copyrate p{
+    color: #959597;
+    font-size: 24px;
+    margin-top: 40px;
+    float: left;
+    margin-left: 70px;
 }
