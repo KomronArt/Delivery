@@ -13,15 +13,16 @@
 <body>
     <div class="container">
         <header>
-            <a href="#"><img class="logo" src="./img/logo.jpg" alt="Logo"></a>
-            <div id="burger">
+            <div  id="burger">
                 <ul>
                     <li>Fioza</li>
                     <li>Fioza</li>
                     <li>Fioza</li>
                     <li>Fioza</li>
                 </ul>
+                <div id="block">x</div>
             </div>
+            <a href="#"><img class="logo" src="./img/logo.jpg" alt="Logo"></a>
             <div class="menu">
                 <div id="onclickmenu">
                     <p class="menu_text_header">menu</p>
@@ -161,9 +162,13 @@
         </footer>
     </div>
     <script>
-        const a = document.getElementById("onclickmenu").onclick = function(){
-            document.getElementById("burger").style.display="block";
+        document.getElementById("onclickmenu").onclick = function(){
+            document.getElementById("burger").style.display="inline-block";
         }
+        document.getElementById("block").onclick = function(){
+            document.getElementById("burger").style.display="none";
+        }
+
     </script>
 </body>
 </html>
