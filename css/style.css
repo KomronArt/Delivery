@@ -474,13 +474,13 @@ footer{
     }
     .appstore{
         width: 150px;
+        margin-top: -10px;
     }
     .appstore p{
         font-size: 12px;
         color: #fff;
      }
     .appstore p span{
-        position: absolute;
         top: 15px;
         font-size: 22px;
         right: 10px;
@@ -490,13 +490,13 @@ footer{
     }
     .playmarket{
         width: 150px;
+        margin-top: 50px;
     }
     .playmarket p{
         font-size: 12px;
         color: #53d769;
     }
     .playmarket p span{
-        position: absolute;
         color: #fff;
         top: 18px;
         font-size: 18px;
