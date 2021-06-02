@@ -39,6 +39,7 @@ header{
     font-size: 24px;
     margin-left: 100px;
     margin-top: 30px;
+    color: #333;    
 }
 #burger ul li:nth-child(1){
     margin-left: 200px;
@@ -149,9 +150,9 @@ header{
 }
 .servises_text{
     font-size: 30px;
-    text-align: center;
     margin-top: 30px;
     color: #727272;
+    text-align: center;
 }
 .left_servises{
     float: left;
@@ -189,6 +190,7 @@ header{
     float: left;
     margin-left: 7.5%;
     margin-top: 50px;
+    position: relative;
 }
 .right_servises{
     float: right;
@@ -215,6 +217,7 @@ header{
 .dark_theme img{
     display: block;
     margin: 0 auto;
+    width: 60px;
 }
 .dark_theme p{
     text-align: center;
@@ -259,7 +262,7 @@ header{
     width: 300px;
     height: 100px;
     background-color: #53d769;
-    border-radius: 30px;
+    border-radius: 15px;
     margin-top: 40px;
 }
 .download p{
@@ -470,7 +473,7 @@ footer{
     .light_app{
         margin-right: 20px;
         width: 40%;
-        margin-top: 300px;
+        margin-top: 250px;
     }
     .dark_app{
         margin-left: 0;
@@ -554,7 +557,6 @@ footer{
         margin-left: 50px;
     }
     .dark_app{
-        margin-left: 10%;
         width: 200px;
     }
     .left_servises p{   
@@ -575,6 +577,9 @@ footer{
         width: 170px;
         font-size: 16px;
         margin-right: 20px;
+    }
+    .dark_theme img{
+        width: 35px;
     }
     .grand_easy img{
         width: 35px;
@@ -608,6 +613,20 @@ footer{
         padding-top: 80px;
         font-size: 30px;
     }
+    .delivery_servises{
+        height: 800px;
+    }
+    .download{
+        width: 180px;
+        height: 70px;
+    }
+    .download p{
+        font-size: 28px;
+        margin-left: 10px;
+    }
+    .download img{
+        margin-top: 15px;
+    }
     .easyfast{
         font-size: 22px;
         padding-top: 10px;
@@ -632,4 +651,56 @@ footer{
         font-size: 16px;
         margin-left: 10px;
     }
+}
+@media screen and (max-width: 625px){
+    .dark_app{
+        margin-left: 1%;
+    }
+}
+@media screen and (max-width: 570px){
+    #burger ul li:nth-child(1){
+        margin-left: 50px;
+    }
+    #burger ul li{
+        margin-left: 30px;
+        font-size: 18px;
+    }
+    .dark_app{
+        width: 170px;
+        margin-top: 130px;
+        margin-left: 5%;
+    }
+    .left_servises{
+        width: 140px;
+    }
+    .right_servises{
+        width: 145px;
+        margin-right: 35px;
+    }
+    .stat p{
+        font-size: 14px;
+        margin-left: 4%;
+    }
+    .delivery_servises p{
+        font-size: 14px;
+    }
+    .float{
+        max-width: 200px;
+    }
+    .fioza_text_first{
+        font-size: 36px;
+        margin-top: 50px;
+    }
+    .fioza_text_second{
+        font-size: 16px;
+    }
+    .light_app{
+        margin-top: 120px;
+    }
+    .fioza_delivery{
+        height: 650px;
+    }
+}
+@media screen and (max-width: 520px){
+
 }

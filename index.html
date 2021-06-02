@@ -6,6 +6,7 @@
     <title>Document</title>
                         <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
                         <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">                    
     <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
@@ -15,10 +16,10 @@
         <header>
             <div  id="burger">
                 <ul>
-                    <li>Fioza</li>
-                    <li>Fioza</li>
-                    <li>Fioza</li>
-                    <li>Fioza</li>
+                    <a href="#"><li>Fioza</li></a>
+                    <a href="#"><li>Fioza</li></a>
+                    <a href="#"><li>Fioza</li></a>
+                    <a href="#"><li>Fioza</li></a>
                 </ul>
                 <div id="block">x</div>
             </div>
@@ -62,12 +63,12 @@
         </div>
         <div class="delivery_servises">
             <p>Самая быстрая <br> Служба Доставки!</p>
-            <p class="servises_text">Наше приложение с удобным и приятным интерфейсом. Это не <br>
-                 повод чтобы гордиться, потому что все приложения должны быть <br>
-                понятным, красивым и удобным. А вот чем мы гордимся в <br>
+            <p class="servises_text">Наше приложение с удобным и приятным интерфейсом. Это не
+                 повод чтобы гордиться, потому что все приложения должны быть
+                понятным, красивым и удобным. А вот чем мы гордимся в
                 Fioza Delivery на самом деле.</p>
 
-                <div class="left_servises">
+                <div class="left_servises wow animate__animated animate__fadeInRight" data-wow-delay="0.7s">
                     <div class="speed">
                         <img src="./img/speed.jpg" alt="Speed">
                         <p>Скорость приложения быстрее чем у конкурентов. Скорость доставки от 10 до 25 минут.</p>
@@ -77,8 +78,8 @@
                         <p>Запуск приложения быстрее чем у  Яндекс Еды или Деливери Клаб</p>
                     </div>
                 </div>
-                <img class="dark_app" src="./img/dark-app.jpg">
-                <div class="right_servises">
+                <img class="dark_app wow animate__animated animate__fadeIn" data-wow-delay="0.5s" src="./img/dark-app.jpg">
+                <div class="right_servises wow animate__animated animate__fadeInLeft" data-wow-delay="0.7s">
                     <div class="grand_easy">
                         <img src="./img/easy.jpg" alt="">
                         <p>Пользоваться приложением смогут  даже Бабушки и Дедушки</p>
@@ -108,10 +109,10 @@
                 <img src="./img/download.png" alt="download">
             </div>
             </div>
-            <img class="light_app" src="./img/light.png" alt="">
+            <img class="light_app wow animate__animated animate__backInRight" data-wow-delay="0.5s" src="./img/light.png" alt="">
         </div>
         <div class="fastdownload">
-            <img src="./img/handphone.png" alt="">
+            <img class="wow animate__animated animate__rotateInUpRight" data-wow-delay="0.5s" src="./img/handphone.png" alt="">
             <p class="downloadoursapp">Скачайте приложение <br>
                 Fioza Delivery</p>
             <p class="easyfast">Легко, Быстро и Удобно</p>
@@ -161,7 +162,10 @@
                 </div>
         </footer>
     </div>
+    <script src="./js/Wow.js"></script>
     <script>
+        var wow = new WOW;
+        wow.init();
         document.getElementById("onclickmenu").onclick = function(){
             document.getElementById("burger").style.display="inline-block";
         }
