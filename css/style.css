@@ -574,9 +574,8 @@ footer{
         width: 35px;
     }
     .right_servises, .right_servises p{
-        width: 170px;
+        max-width: 170px;
         font-size: 16px;
-        margin-right: 20px;
     }
     .dark_theme img{
         width: 35px;
@@ -702,5 +701,103 @@ footer{
     }
 }
 @media screen and (max-width: 520px){
-
+    .delivery_servises p:nth-child(1){
+        font-size: 38px;
+    }
+.left_servises{
+    max-width: 100px;
+}
+.left_servises p{
+    font-size: 10px;
+}
+.dark_app{
+    margin-left: 7%;
+}
+.right_servises{
+    max-width: 100px;
+}
+.right_servises p{
+    font-size: 10px;
+}
+.footertext{
+    font-size: 16px;
+}
+.copyrate img{
+    width: 35px;
+    margin-top: 35px;
+}
+.copyrate p{
+    font-size: 12px;
+}
+}
+@media screen and (max-width: 450px){
+.about_app{
+    max-width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.dark_app{
+    width: 150px;
+    margin-left: 25px;
+}
+.left_servises img{
+    width: 25px;
+}
+.delivery_servises p{
+    margin-top: 5px;
+}
+.right_servises img{
+    width: 25px;
+}
+.appstore{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.appstore p{
+    margin-right: 20px;
+}
+.appstore img{
+    margin-left: 20px;
+}
+.playmarket{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.playmarket p{
+    margin-right: 20px;
+}
+.playmarket img{
+    margin-left: 20px;
+}
+.stat p{
+    margin-left: 4%;
+    font-size: 12px;
+}
+.fastdownload img{
+    width: 200px;
+}
+.app{
+    float: right;
+    margin-top: 85px;
+}
+.play{
+    float: right;
+    margin-top: 30px;
+}
+}
+@media screen and (max-width: 415px){
+    .dark_app{
+        width: 120px;
+        margin-left: 0;
+    }
+    .downloadoursapp{
+        font-size: 28px;
+        padding-top: 40px;
+    }
+    footer{
+        height: 1000px;
+    }
 }
