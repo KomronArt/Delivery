@@ -387,11 +387,18 @@ footer{
     float: left;
     margin-left: 70px;
 }
-
+@media screen and (max-width: 1400px){
+    .about_app{
+        margin-left: 10%;   
+    }
+}
 
 @media screen and (max-width: 1250px)  {
     footer{
         height: 820px;
+    }
+    #burger ul li:nth-child(1){
+        margin-left: 100px;
     }
 }
 @media screen and (max-width: 1190px)  {
@@ -428,6 +435,12 @@ footer{
     }
 }
 @media screen and (max-width: 1040px){
+    .about_app{
+        margin-left: 4%;   
+    }
+    .phones_img{
+        margin-top: 100px;
+    }
     .delivery_servises{
         height: 1100px;
     }
@@ -576,7 +589,7 @@ footer{
     }
     .about_app{
         max-width: 80%;
-        margin-left: 3%;
+        margin-left: 10%;
     }
     .fioza_text_second{
         font-size: 22px;
