@@ -154,8 +154,13 @@ header{
     color: #727272;
     text-align: center;
 }
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+}
 .left_servises{
-    float: left;
+    display: inline-block;
+    vertical-align: top;
     margin-top: 130px;
 }
 .speed{
@@ -187,13 +192,12 @@ header{
     margin-left: 10px;
 }
 .dark_app{
-    float: left;
-    margin-left: 7.5%;
+    display: inline-block;
     margin-top: 50px;
-    position: relative;
 }
 .right_servises{
-    float: right;
+    display: inline-block;
+    vertical-align: top;
     margin-top: 130px;
 }
 .grand_easy{
@@ -386,17 +390,11 @@ footer{
 
 
 @media screen and (max-width: 1250px)  {
-    .dark_app{
-        margin-left: 3%;
-    }
     footer{
         height: 820px;
     }
 }
 @media screen and (max-width: 1190px)  {
-    .dark_app{
-        margin-left: 0%;
-    }
     .light_app{
         margin-right: 100px;
         margin-top: 250px;
@@ -418,7 +416,6 @@ footer{
 @media screen and (max-width: 1140px){
     .dark_app{
         width: 30%;
-        margin-left: 3%;
     }
 }
 @media screen and (max-width: 1100px){
@@ -439,9 +436,6 @@ footer{
     }
     .right_servises{
         width: 280px;
-    }
-    .dark_app{
-        margin-left: 7%;
     }
     .fastdownload img{
         width: 50%;
@@ -474,9 +468,6 @@ footer{
         margin-right: 20px;
         width: 40%;
         margin-top: 250px;
-    }
-    .dark_app{
-        margin-left: 40px;
     }
     .appstore{
         width: 150px;
@@ -515,11 +506,6 @@ footer{
         margin: 15px 0 0 8px;
     }
 }
-@media screen and (max-width: 860px){
-    .dark_app{
-        margin-left: 10px;
-    }
-}
 @media screen and (max-width: 820px){
     .stat{
         height: 120px;
@@ -536,7 +522,6 @@ footer{
     }
     .dark_app{
         width: 250px;
-        margin-left: 120px;
     }
     .hrdiv ul a li{
         font-size: 18px;
@@ -600,11 +585,6 @@ footer{
         max-width: 300px;
     }
 }
-@media screen and (max-width: 730px){
-    .dark_app{
-        margin-left: 60px;
-    }
-}
 @media screen and (max-width: 700px){
     .stat p{
         font-size: 16px;
@@ -663,9 +643,6 @@ footer{
     #burger ul li:nth-child(1){
         margin-left: 40px;
     }
-    .dark_app{
-        margin-left: 25px;
-    }
 }
 @media screen and (max-width: 570px){
     #burger ul li:nth-child(1){
@@ -678,7 +655,6 @@ footer{
     .dark_app{
         width: 170px;
         margin-top: 130px;
-        margin-left: 5%;
     }
     .left_servises{
         width: 140px;
@@ -720,9 +696,6 @@ footer{
 .left_servises p{
     font-size: 10px;
 }
-.dark_app{
-    margin-left: 12%;
-}
 .right_servises{
     max-width: 100px;
 }
@@ -759,7 +732,6 @@ footer{
 }
 .dark_app{
     width: 150px;
-    margin-left: 35px;
 }
 .left_servises img{
     width: 25px;
@@ -807,7 +779,6 @@ footer{
 @media screen and (max-width: 415px){
     .dark_app{
         width: 120px;
-        margin-left: 30px;
     }
     .downloadoursapp{
         font-size: 28px;
@@ -845,8 +816,14 @@ footer{
         font-size: 14px;
     }
 }
-@media screen and (max-width: 350px){
-    .dark_app{
-        margin-left: 10px;
+@media screen and (max-width: 340px){
+    .delivery_servises p:nth-child(1){
+        font-size: 24px;    
+    }
+    .downloadoursapp{
+        font-size: 18px;
+    }
+    .easyfast{
+        font-size: 12px;
     }
 }
