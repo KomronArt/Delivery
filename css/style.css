@@ -829,7 +829,10 @@ footer{
         font-size: 14px;
     }
 }
-@media screen and (max-width: 340px){
+@media screen and (max-width: 360px){
+    .logo{
+        width: 150px;
+    }
     .delivery_servises p:nth-child(1){
         font-size: 24px;    
     }
@@ -838,5 +841,48 @@ footer{
     }
     .easyfast{
         font-size: 12px;
+    }
+    .copyrate p{
+        font-size: 8px;
+    }
+    .copyrate img{
+        width: 25px;
+    }
+}
+@media screen and (max-width: 310px){
+    .menu_text_header{
+        display: none;
+    }
+    .left_servises{
+        width: 70px;
+        margin-top: 50px;
+    }
+    .right_servises{
+        width: 70px;
+        margin-top: 50px;
+    }
+    .dark_app{
+        margin-top: 50px;
+    }
+    .stat p{
+        font-size: 8px;
+        margin-top: 15px;
+    }
+    .stat{
+        margin-top: 150px;
+        height: 50px;
+    }
+    .float{
+        max-width: 120px;
+    }
+    .fioza_delivery{
+        height: 450px;
+    }
+    .fioza_text_second{
+        font-size: 11px;
+        max-width: 120px;
+    }
+    .fastdownload{
+        height: 300px;
     }
 }
